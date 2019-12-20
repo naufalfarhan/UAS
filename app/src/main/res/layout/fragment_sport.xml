@@ -9,6 +9,11 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <ScrollView
+        android:id="@+id/tvl_loong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -97,5 +102,6 @@
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.54" />
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
